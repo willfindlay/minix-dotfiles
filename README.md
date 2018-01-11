@@ -7,8 +7,8 @@
 <h2>IMPORTANT</h2>
 <p>
   To configure git for the first time, type the following:<br/>
-  &nbsp;&nbsp;git config --global user.name &lt;your username&gt;<br/>
-  &nbsp;&nbsp;git config --global user.email &lt;your email&gt;<br/>
+  &nbsp;&nbsp;git config --global user.name "&lt;your username&gt;"<br/>
+  &nbsp;&nbsp;git config --global user.email "&lt;your email&gt;"<br/>
   &nbsp;&nbsp;git config --global http.sslVerify false<br/>
   <br/>
   To set up SSH on your VM, go into VirtualBox <b>settings -&gt; network -&gt;
