@@ -12,7 +12,7 @@
   &nbsp;&nbsp;git config --global http.sslVerify false<br/>
   <br/>
   To set up SSH on your VM, go into VirtualBox <b>settings -&gt; network -&gt;
-  advanced -&gt; port forwarding...</b> Then set <b>Host IP to 127.0.0.1 and guest IP
+  advanced -&gt; port forwarding...</b><br/> Then set <b>Host IP to 127.0.0.1 and guest IP
   to 10.0.2.15</b>. Also make sure <b>Protocol is TCP, Host Port is 2222 and
   Guest Port is 22</b>.
 </p>
