@@ -19,15 +19,15 @@
 
 <h2>Usage....</h2>
 <p>
-  [OPTIONAL: SSH into minix from host OS with ssh -l root -p 2222 localhost]
-  cd ~
-  git clone https://www.github.com/housedhorse/minix-dotfiles
-  cd minix-dotfiles
-  cp ./.&#42; ..
-  [You will get warnings, that is OK]
-  cp ./&#42; ..
-  [You will get warnings, that is OK]
-  cp -r ./.ssh ..
+  [OPTIONAL: SSH into minix from host OS with ssh -l root -p 2222 localhost]<br/>
+  cd ~<br/>
+  git clone https://www.github.com/housedhorse/minix-dotfiles<br/>
+  cd minix-dotfiles<br/>
+  cp ./.&#42; ..<br/>
+  [You will get warnings, that is OK]<br/>
+  cp ./&#42; ..<br/>
+  [You will get warnings, that is OK]<br/>
+  cp -r ./.ssh ..<br/>
   [You MIGHT get warnings, that is OK]
 </p>
 
