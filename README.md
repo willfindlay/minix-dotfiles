@@ -34,7 +34,7 @@
 <h2>Also note...</h2>
 <p>
   It should be noted that the termite.terminfo need only be used if SSHing from the
-  termite terminal for Linux. If you wish to use Termite, you MUST recompile
+  "Termite" terminal for Linux. If you wish to use Termite, you MUST recompile
   termite.terminfo using the tic command in termite. If you do not compile
   termite.terminfo, your terminal WILL NOT WORK PROPERLY.
 </p>
