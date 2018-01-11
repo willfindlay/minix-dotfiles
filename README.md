@@ -7,8 +7,8 @@
 <h2>IMPORTANT</h2>
 <p>
   To configure git for the first time, type the following:<br/>
-  &nbsp;&nbsp;git config --global user.name &lt;your username&gt;<br/>
-  &nbsp;&nbsp;git config --global user.email &lt;your email&gt;<br/>
+  &nbsp;&nbsp;git config --global user.name "&lt;your username&gt;"<br/>
+  &nbsp;&nbsp;git config --global user.email "&lt;your email&gt;"<br/>
   &nbsp;&nbsp;git config --global http.sslVerify false<br/>
   <br/>
   To set up SSH on your VM, go into VirtualBox <b>settings -&gt; network -&gt;
@@ -17,10 +17,24 @@
   Guest Port is 22</b>.
 </p>
 
+<h2>Usage....</h2>
+<p>
+  [OPTIONAL: SSH into minix from host OS with ssh -l root -p 2222 localhost]<br/>
+  cd ~<br/>
+  git clone https://www.github.com/housedhorse/minix-dotfiles<br/>
+  cd minix-dotfiles<br/>
+  cp ./.&#42; ..<br/>
+  [You will get warnings, that is OK]<br/>
+  cp ./&#42; ..<br/>
+  [You will get warnings, that is OK]<br/>
+  cp -r ./.ssh ..<br/>
+  [You MIGHT get warnings, that is OK]
+</p>
+
 <h2>Also note...</h2>
 <p>
   It should be noted that the termite.terminfo need only be used if SSHing from the
-  termite terminal for Linux. If you wish to use Termite, you MUST recompile
+  "Termite" terminal for Linux. If you wish to use Termite, you MUST recompile
   termite.terminfo using the tic command in termite. If you do not compile
   termite.terminfo, your terminal WILL NOT WORK PROPERLY.
 </p>
