@@ -1,5 +1,3 @@
-# minix-dotfiles
-
 <h1> WILLIAM FINDLAY'S MINIX DOTFILES </h1>
 
 <p>
