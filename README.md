@@ -10,4 +10,17 @@
   &nbsp;&nbsp;git config --global user.name &lt;your username&gt;<br/>
   &nbsp;&nbsp;git config --global user.email &lt;your email&gt;<br/>
   &nbsp;&nbsp;git config --global http.sslVerify false<br/>
+  <br/>
+  To set up SSH on your VM, go into VirtualBox settings -&gt; network -&gt;
+  advanced -&gt; port forwarding... Then set Host IP to 127.0.0.1 and guest IP
+  to 10.0.2.15. Also make sure Protocol is TCP, Host Port is 2222 and Guest Port is 22.
+</p>
+
+<br/>
+
+<p>
+  It should be noted that the termite.terminfo need only be used if SSHing from the
+  termite terminal for Linux. If you wish to use Termite, you MUST recompile
+  termite.terminfo using the tic command in termite. If you do not compile
+  termite.terminfo, your terminal WILL NOT WORK PROPERLY.
 </p>
