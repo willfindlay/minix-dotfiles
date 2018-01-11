@@ -7,7 +7,7 @@
 <h2>IMPORTANT</h2>
 <p>
   To configure git for the first time, type the following:<br/>
-  git config --global user.name &lt;your username&rt;
-  git config --global user.email &lt;your email&rt;
-  git config --global http.sslVerify false
+  git config --global user.name &lt;your username&rt;<br/>
+  git config --global user.email &lt;your email&rt;<br/>
+  git config --global http.sslVerify false<br/>
 </p>
