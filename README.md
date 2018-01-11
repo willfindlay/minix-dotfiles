@@ -17,6 +17,20 @@
   Guest Port is 22</b>.
 </p>
 
+<h2>Usage....</h2>
+<p>
+  [OPTIONAL: SSH into minix from host OS with ssh -l root -p 2222 localhost]
+  cd ~
+  git clone https://www.github.com/housedhorse/minix-dotfiles
+  cd minix-dotfiles
+  cp ./.&#42; ..
+  [You will get warnings, that is OK]
+  cp ./&#42; ..
+  [You will get warnings, that is OK]
+  cp -r ./.ssh ..
+  [You MIGHT get warnings, that is OK]
+</p>
+
 <h2>Also note...</h2>
 <p>
   It should be noted that the termite.terminfo need only be used if SSHing from the
