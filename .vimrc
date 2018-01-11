@@ -36,8 +36,8 @@ inoremap <S-Tab> <C-d>
 inoremap <Tab> <C-t>
 nnoremap <S-Tab> <<
 nnoremap <Tab> >>
-vnoremap <S-Tab> <<
-vnoremap <Tab> >>
+vnoremap <S-Tab> <
+vnoremap <Tab> >
 
 set backspace=indent,eol,start
 syntax on
