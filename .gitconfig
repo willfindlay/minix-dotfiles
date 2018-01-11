@@ -1,0 +1,5 @@
+[user]
+	name = housedhorse
+	email = william@wfindlay.com
+[http]
+	sslVerify = false
