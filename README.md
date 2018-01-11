@@ -17,8 +17,7 @@
   Guest Port is 22</b>.
 </p>
 
-<br/>
-
+<h2>Also note...</h2>
 <p>
   It should be noted that the termite.terminfo need only be used if SSHing from the
   termite terminal for Linux. If you wish to use Termite, you MUST recompile
