@@ -2,7 +2,8 @@
 
 <p>
   My dotfiles for the minix virtual machine image for COMP3000 designed for use in a linux host OS environment.<br/>
-  However, they can also be used on Windows or MacOS with minor or no modifications.
+  However, they can also be used on a Windows or MacOS host OS with minor or no modifications.<br/>
+  Of course, if you do not intend to SSH into your VM, host OS is mostly irrelevant anyway.
 </p>
 
 <h2>IMPORTANT</h2>
