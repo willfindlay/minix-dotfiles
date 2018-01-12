@@ -1,7 +1,8 @@
 <h1> WILLIAM FINDLAY'S MINIX DOTFILES </h1>
 
 <p>
-  My dotfiles for the minix virtual machine image for COMP3000 designed for use in a linux host OS environment.
+  My dotfiles for the minix virtual machine image for COMP3000 designed for use in a linux host OS environment.<br/>
+  However, they can also be used on Windows or MacOS with minor or no modifications.
 </p>
 
 <h2>IMPORTANT</h2>
@@ -20,6 +21,7 @@
 <h2>Usage....</h2>
 <p>
   [OPTIONAL: SSH into minix from host OS with ssh -l root -p 2222 localhost]<br/>
+  [If you are on Windows, you can use Putty on port 2222 and IP 127.0.0.1]<br/>
   cd ~<br/>
   git clone https://www.github.com/housedhorse/minix-dotfiles<br/>
   cd minix-dotfiles<br/>
