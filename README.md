@@ -22,10 +22,11 @@
 <h2>Usage....</h2>
 <p>
   [OPTIONAL: SSH into minix from host OS with ssh -l root -p 2222 localhost]<br/>
-  [If you are on Windows, you can use Putty on port 2222 and IP 127.0.0.1]<br/>
+  [<b>If you are on Windows</b>, you can use Putty on port 2222 and IP 127.0.0.1]<br/>
   cd ~<br/>
   git clone https://www.github.com/housedhorse/minix-dotfiles<br/>
   cd minix-dotfiles<br/>
+  [<b>If you are on Windows</b>, add "set fileformat=unix" to .vimrc without quotes]<br/>
   cp ./.&#42; ..<br/>
   [You will get warnings, that is OK]<br/>
   cp ./&#42; ..<br/>
