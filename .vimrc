@@ -32,12 +32,15 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " for command mode
 " nnoremap <S-Tab> <<
 " for insert mode
+map <Esc>[Z <s-tab>
+ounmap <Esc>[Z
 inoremap <S-Tab> <C-d>
 inoremap <Tab> <C-t>
 nnoremap <S-Tab> <<
 nnoremap <Tab> >>
 vnoremap <S-Tab> <
 vnoremap <Tab> >
+nnoremap <S-q> <<
 
 set backspace=indent,eol,start
 syntax on
