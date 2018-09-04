@@ -9,7 +9,6 @@ Download the provided VDI file, and in VirtualBox select `file` -> `import appli
 ## Installing Programs
 
 If necessary, install vim: `pkgin up && pkgin in vim`. When it prompts you to update the database, type `y`.
-If necessary, install git: `pkgin install git-base`. 
 If necessary, install openssh: `pkgin install openssh` and `reboot`.
 
 # Where is my GUI???
