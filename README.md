@@ -3,7 +3,7 @@
 # Setup
 First, download [Virtual Box](https://www.virtualbox.org/) and make sure it is up to date.
 
-## Use the Provided Image
+## Using the Provided Image
 Download the provided VDI file, and in VirtualBox select `file` -> `import appliance` and navigate to the VDI file you downloaded.
 
 ## Manual Install
