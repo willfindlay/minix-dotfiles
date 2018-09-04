@@ -54,22 +54,6 @@ of this guide.
 If you are dead-set on using an IDE, just work on the assignments on your Host OS and transfer them over to the Minix VM
 using one of the techniques outlined below.
 
-# Dotfiles
-If you wish to use my custom dotfiles which make Vim and Minix a little bit more useable, follow these isntructions.
-Otherwise, just skip this section.
-
-First, we need to configure git. Type the following commands:
-
-`git config --global user.name "<your username>"` replace `<your username>` with your GitHub account name.\
-`git config --global user.email "<your email>"` replace `<your email> with your GitHub email address.`\
-`git config --global http.sslVerify false` (this is not super secure however it seemed to be a necessary workaround in this case)
-
-Now, clone the repository and copy the dotfiles:
-
-`git clone https://www.github.com/housedhorse/minix-dotfiles`
-`cd minix-dotfiles`
-`cp .shrc .vimrc ~`
-
 # SSH
 You will almost definitely wish to SSH into your VM. This will allow you to get multiple terminals going and dramatically improve
 your workflow. An alternative to SSHing is simply editing the appopriate files on your host OS and transfering them over. GitHub, SCP,
@@ -97,6 +81,22 @@ Make sure you have `OpenSSH` installed. On my Host OS, the command is `sudo pacm
 Once `OpenSSH` is installed, you can SSH into Minix with the following command:
 
 `ssh -l root -p 2222 localhost`
+
+# Dotfiles
+If you wish to use my custom dotfiles which make Vim and Minix a little bit more useable, follow these isntructions.
+Otherwise, just skip this section.
+
+First, we need to configure git. Type the following commands:
+
+`git config --global user.name "<your username>"` replace `<your username>` with your GitHub account name.\
+`git config --global user.email "<your email>"` replace `<your email> with your GitHub email address.`\
+`git config --global http.sslVerify false` (this is not super secure however it seemed to be a necessary workaround in this case)
+
+Now, clone the repository and copy the dotfiles:
+
+`git clone https://www.github.com/housedhorse/minix-dotfiles`
+`cd minix-dotfiles`
+`cp .shrc .vimrc ~`
 
 ## If you are using Termite on Linux while SSHing...
 A problem I encountered on the Minix VM while SSHing from my ArchLinux Host OS was that my terminal,
