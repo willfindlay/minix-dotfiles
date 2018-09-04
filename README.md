@@ -43,7 +43,7 @@ Download the SSH client called [PuTTY](https://www.putty.org/) and run with the 
 ## On MacOS and Linux
 Make sure you have `OpenSSH` installed. On my Host OS, the command is `sudo pacman -S openssh`.
 
-Once `OpenSSH` is installed, you can SSH into Minix with the following command:
+Once `OpenSSH` is installed, reboot or start the service and then you can SSH into Minix with the following command:
 
 `ssh -l root -p 2222 localhost`
 
