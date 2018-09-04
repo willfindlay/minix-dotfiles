@@ -29,13 +29,14 @@ set ls=2
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
-" for command mode
-" nnoremap <S-Tab> <<
-" for insert mode
+
+" fixes for some tab issues
 map <Esc>[Z <s-tab>
 ounmap <Esc>[Z
 inoremap <S-Tab> <C-d>
 inoremap <Tab> <C-t>
+
+" handy aliases to make tabbing indent a given line at the beginning
 nnoremap <S-Tab> <<
 nnoremap <Tab> >>
 vnoremap <S-Tab> <
