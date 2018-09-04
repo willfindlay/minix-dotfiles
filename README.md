@@ -9,7 +9,7 @@ First, we need to configure git. Type the following commands:
 
 `git config --global user.name "<your username>"` replace `<your username>` with your GitHub account name.\
 `git config --global user.email "<your email>"` replace `<your email> with your GitHub email address.`\
-`git config --global http.sslVerify false` (this is not super secure however it seemed to be a necessary workaround in this case)\
+`git config --global http.sslVerify false` (this is not super secure however it seemed to be a necessary workaround in this case)
 
 # SSH
 You will almost definitely wish to SSH into your VM. This will allow you to get multiple terminals going and dramatically improve
@@ -28,7 +28,7 @@ Make sure `Protocol` is `TCP` and set `Host Port` to `2222` (or any port you lik
 and `Guest Port` to `22`.
 
 ## On Windows
-Download the SSH client called (PuTTY)[https://www.putty.org/] and run with the following settings:
+Download the SSH client called [PuTTY](https://www.putty.org/) and run with the following settings:
 
 `Port: 2222` and `IP: 127.0.0.1`
 
