@@ -32,7 +32,7 @@ Click on the VM in the left hand side menu.
 
 Set `Host IP` to `127.0.0.1` and `Guest IP` to `10.0.2.15`
 
-Make sure `Protocol` is `TCP` and set `Host Port` to `2222` (or any port you like but bear in mind I will use 2222 here)
+Make sure `Protocol` is `TCP` and set `Host Port` to `2222` (or any high numbered port you like but bear in mind I will use 2222 here)
 and `Guest Port` to `22`.
 
 ## On Windows
