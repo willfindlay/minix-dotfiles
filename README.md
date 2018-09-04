@@ -67,7 +67,7 @@ command in your Host OS terminal: `scp -P 2222 /path/to/files root@localhost:/pa
 
 ## If you are using Termite on Linux while SSHing...
 A problem I encountered on the Minix VM while SSHing from my ArchLinux Host OS was that my terminal,
-TERMITE was bugging out horribly. The solution is to transfer the `termite.terminfo` file to Minix
+Termite was bugging out horribly. The solution is to transfer the `termite.terminfo` file to Minix
 (there is a copy included in this respository) and run the command `tic termite.terminfo`.
 
 This may apply to other terminals as well. However the `.terminfo` file you need would be different.
