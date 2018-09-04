@@ -40,7 +40,7 @@ Download the SSH client called [PuTTY](https://www.putty.org/) and run with the 
 
 `Port: 2222` and `IP: 127.0.0.1`
 
-##On MacOS and Linux
+## On MacOS and Linux
 Make sure you have `OpenSSH` installed. On my Host OS, the command is `sudo pacman -S openssh`.
 
 Once `OpenSSH` is installed, you can SSH into Minix with the following command:
